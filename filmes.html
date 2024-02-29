@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="css.css">
+  <title>Séries e Filmes</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="séries.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+            <path
+              d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z" />
+          </svg> <span>MetFlix</span> - Onde a magia acontece e as crianças aparecem</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Séries e Filmes</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="séries.html"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-camera-reels-fill" viewBox="0 0 16 16">
+                    <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                    <path d="M9 6a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                    <path
+                      d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" />
+                  </svg> Séries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="ondeassistirfilmes.html">Onde assitir os
+                  filmes?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="ondeassistirseries.html">Onde assistir as
+                  séries?</a>
+              </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <h1>Filmes</h1>
+    <br>
+
+    <div class="row">
+      <div class="col">
+        <div class="card card text-bg-dark mb-3" style="max-width: 18rem;" style="width: 18rem;">
+          <img src="img/em ritmo de fuga.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4><b>Em Ritmo de Fuga</b></h2>
+              <p class="card-text">O talentoso motorista de fuga Baby confia nas batidas de sua própria trilha sonora
+                para ser o melhor que existe. A música silencia um zumbido que o perturba desde um acidente na infância.
+              </p>
+              <a href="https://www.youtube.com/watch?v=S25X-gFxX9s" target="_blank" class="btn btn-secondary"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-camera-reels" viewBox="0 0 16 16">
+                  <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0M1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0" />
+                  <path
+                    d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm6 8.73V7.27l-3.5 1.555v4.35zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1" />
+                  <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6M7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                </svg> Veja o Trailer</a>
+          </div>
+        </div>
+      </div>
+      <div id="rest" class="col">
+        <div class="card card text-bg-dark mb-3" style="max-width: 18rem;" style="width: 18rem;">
+          <img src="img/velozes e furiosos 5.webp" class="card-img-top" alt="..." width="300" height="300">
+          <div class="card-body">
+            <h4><b>Velozes e Furiosos 5 - Operação Rio</b></h2>
+              <p class="card-text">Desde que o ex-policial Brian O'Conner e Mia Toretto libertaram Dom da prisão, eles
+                viajam pelo mundo para fugir das autoridades. No Rio de Janeiro, eles são obrigados a fazer um último
+                trabalho antes de ganhar sua liberdade definitiva.</p>
+              <a href="https://www.youtube.com/watch?v=E1owNxw0cz0" target="_blank" class="btn btn-secondary"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-camera-reels" viewBox="0 0 16 16">
+                  <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0M1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0" />
+                  <path
+                    d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm6 8.73V7.27l-3.5 1.555v4.35zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1" />
+                  <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6M7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                </svg> Veja o Trailer</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card text-bg-dark mb-3" style="max-width: 18rem;" style="width: 18rem;">
+          <img src="img/rota de fuga.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4><b>Rota de Fuga</b></h2>
+              <p class="card-text">Ray Breslin é a maior autoridade que existe quando se trata de segurança. Após
+                analisar diversas prisões de segurança máxima, ele desenvolve um modelo à prova de fugas.</p>
+              <a href="https://www.youtube.com/watch?v=jgrFJkHGwDA" target="_blank" class="btn btn-secondary"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-camera-reels" viewBox="0 0 16 16">
+                  <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0M1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0" />
+                  <path
+                    d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm6 8.73V7.27l-3.5 1.555v4.35zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1" />
+                  <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6M7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                </svg> Veja o Trailer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div id="col1" class="col">
+        <div class="card card text-bg-dark mb-3" style="max-width: 18rem;" style="width: 18rem;">
+          <img src="img/desafio em toquio.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4><b>Velozes e Furiosos - Desafio em Tokyo</b></h2>
+              <p class="card-text">Sean Boswell é um piloto de rua que desafia seu rival e bate o carro no fim da
+                corrida. Ele decide se mudar para o Japão para evitar a prisão nos Estados Unidos, já que os rachas não
+                são nada populares com as autoridades.</p>
+              <a href="https://www.youtube.com/watch?v=mXbfYYX0ZkI" target="_blank" class="btn btn-secondary"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-camera-reels" viewBox="0 0 16 16">
+                  <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0M1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0" />
+                  <path
+                    d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm6 8.73V7.27l-3.5 1.555v4.35zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1" />
+                  <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6M7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                </svg> Veja o Trailer</a>
+          </div>
+        </div>
+      </div>
+      <div id="col2" class="col">
+        <div class="card card text-bg-dark mb-3" style="max-width: 18rem;" style="width: 18rem;">
+          <img src="img/velozes e furiosos 8.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4><b>Velozes e Furiosos 8</b></h2>
+              <p class="card-text">Depois da aposentadoria de Brian e Mia, Dom e Letty aproveitam a lua de mel e levam
+                uma vida pacata e normal. Mas a adrenalina do passado volta com tudo quando uma mulher misteriosa obriga
+                Dom a retornar ao mundo do crime e da velocidade.</p>
+              <a href="https://www.youtube.com/watch?v=KvSlvtPnZTo" target="_blank" class="btn btn-secondary"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-camera-reels" viewBox="0 0 16 16">
+                  <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0M1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0" />
+                  <path
+                    d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm6 8.73V7.27l-3.5 1.555v4.35zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1" />
+                  <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6M7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                </svg> Veja o Trailer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer text-center">
+    <p><b>© 2023 Filmes e Séries. Todos os direitos reservados.</b></p>
+    <p>Desenvolvido por João Rafael</p>
+  </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>

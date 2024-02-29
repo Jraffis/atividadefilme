@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toggle Background Color</title>
+<style>
+  body {
+    transition: background-color 0.5s ease;
+  }
+</style>
+</head>
+<body>
+
+<button id="botao">Toggle Background Color</button>
+
+<script>
+document.getElementById('botao').addEventListener('click', function() {
+  var currentColor = window.getComputedStyle(document.body).getPropertyValue('background-color');
+  var isDark = isColorDark(currentColor);
+  var newColor = isDark ? 'white' : 'black';
+  document.body.style.backgroundColor = newColor;
+});
+
+function isColorDark(color) {
+  var rgb = color.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+  var r = rgb[1];
+  var g = rgb[2];
+  var b = rgb[3];
+  var brightness = (r * 299 + g * 587 + b * 114) / 1000;
+  return brightness < 128;
+}
+</script>
+
+</body>
+</html>

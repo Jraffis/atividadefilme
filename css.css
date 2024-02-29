@@ -1,0 +1,41 @@
+body{
+    background-color: grey;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    margin-left: 60px;
+    height: 750px;
+}
+.card-body{
+    text-align: justify;
+}
+#col1{
+    margin-left: 150px;
+    height: 50px;
+    margin-top: 20px;
+}   
+.footer{
+    background-color: #494C4E;
+    color: white;
+    margin-top: 60px;
+}
+.btn{
+    margin-left: 55px;
+    margin-top: 100px;
+}
+span{
+    color: red;
+}
+.bi-camera-reels-fill{
+    color: red;
+}
+
+.espacotabela{
+    margin-bottom: 340px;
+}
+.espacotitulo{
+    margin-top: 200px;
+}
