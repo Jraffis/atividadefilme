@@ -14,7 +14,7 @@ function changeBackgroundColor() {
 function addCard() {
     // Cria um novo elemento div para representar o card
     var card = document.createElement("div");
-    card.className = "card";
+    card.className = "cardextra";
     
     // Conteúdo do card (pode personalizar conforme necessário)
     card.innerHTML = `
